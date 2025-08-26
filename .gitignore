@@ -1,1 +1,31 @@
-venv
+# Virtual environment
+venv/
+env/
+
+# Environment variables (contains sensitive API keys)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit cache
+.streamlit/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# LlamaIndex storage
+storage/
+index_storage/
+
+# Temporary files
+*.tmp
+*.log
